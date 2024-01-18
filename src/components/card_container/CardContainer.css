@@ -1,0 +1,14 @@
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(356px, 1fr));
+    gap: 16px;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.filter_container {
+    max-width: 500px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}

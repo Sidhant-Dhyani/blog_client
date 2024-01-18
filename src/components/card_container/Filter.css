@@ -1,0 +1,19 @@
+.filter_select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.filter_select option {
+    padding: 8px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+}
+
+.filter_select option:hover {
+    background-color: #f0f0f0;
+}
