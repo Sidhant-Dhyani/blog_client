@@ -10,7 +10,7 @@ const BlogPage = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get(`http://localhost:4000/api/post/one/${id}`);
+                const response = await axios.get(`https://blog-server-ecru.vercel.app/api/post/one/${id}`);
                 setBlogData(response.data);
             } catch (error) {
                 console.error('Error fetching data:', error.message);

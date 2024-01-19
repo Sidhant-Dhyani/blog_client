@@ -21,7 +21,7 @@ const CardContainer = () => {
     useEffect(() => {
         const fetchData = async () => {
             const queryParams = `?tag=${filters.tag}`
-            const url = `http://localhost:4000/api/post/all/${queryParams}`;
+            const url = `https://blog-server-ecru.vercel.app/api/post/all/${queryParams}`;
             try {
                 const response = await axios.get(url);
                 console.log(response.data);

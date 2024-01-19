@@ -22,7 +22,7 @@ const Filter = ({ filters, onFilterChange }) => {
                 <option value="">Select Category</option>
                 <option value="65a8cb433bb782a34a2139cb">Javascript</option>
                 <option value="65a8cb433bb782a34a2139cc">Web Development</option>
-                <option value="65a8cb433bb782a34a2139cd">FrontEnd</option>
+                <option value="65a8cb433bb782a34a2139cd">Frontend</option>
                 <option value="65a8cb433bb782a34a2139ce">Backend</option>
                 <option value="65a8cb433bb782a34a2139cf">Nodejs</option>
                 <option value="65a8cb433bb782a34a2139cd">React</option>
